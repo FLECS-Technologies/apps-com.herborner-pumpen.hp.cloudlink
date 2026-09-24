@@ -6,12 +6,9 @@
     "revision": "0",
     "image": "flecs.azurecr.io/com.herborner-pumpen.hp.cloudlink",
     "multiInstance": false,
-    "editors": [{  "name": "MQTT Status Viewer",  "port": 9330,  "supportsReverseProxy": true}],
+    "editors": [{  "name": "CloudLink WebUI",  "port": 9330,  "supportsReverseProxy": true}],
     "capabilities": [ 
         "NET_ADMIN" 
-    ],
-    "ports":[
-        "9331:9330"
     ],
     "devices": [ 
         "/dev/net/tun" 
