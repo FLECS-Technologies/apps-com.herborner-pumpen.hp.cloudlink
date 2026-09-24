@@ -1,10 +1,10 @@
 {
     "$schema": "https://raw.githubusercontent.com/FLECS-Technologies/app-sdk/3.0.0/manifest.schema.json",
     "_schemaVersion": "3.0.0",
-    "app": "com.herborner-pumpen.hp.mqtt-bridge",
+    "app": "com.herborner-pumpen.hp.cloudlink",
     "version": "##VERSION##",
     "revision": "0",
-    "image": "flecs.azurecr.io/com.herborner-pumpen.hp.mqtt-bridge",
+    "image": "flecs.azurecr.io/com.herborner-pumpen.hp.cloudlink",
     "multiInstance": false,
     "editors": [{  "name": "MQTT Status Viewer",  "port": 9330,  "supportsReverseProxy": true}],
     "capabilities": [ 
